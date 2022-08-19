@@ -1,0 +1,36 @@
+// font-family: 'Plus Jakarta Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Yantramanav', sans-serif;
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+#myCarousel .list-inline {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+#myCarousel .carousel-indicators {
+  position: static;
+  left: initial;
+  width: initial;
+  margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+  width: initial;
+  height: initial;
+  text-indent: initial;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+  //   outline: 2px solid #3563e9;
+  box-shadow: inset 0px 0px 0px 9px #3563e9;
+  border-radius: 10px;
+}
