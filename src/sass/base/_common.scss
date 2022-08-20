@@ -13,7 +13,7 @@ body {
 
 #myCarousel .list-inline {
   white-space: nowrap;
-  overflow-x: auto;
+  overflow-x: visible;
 }
 
 #myCarousel .carousel-indicators {
@@ -27,10 +27,36 @@ body {
   width: initial;
   height: initial;
   text-indent: initial;
+
+  & img {
+    width: 148px;
+    height: 124px;
+    border-radius: 10px;
+    transition: transform 250ms linear;
+  }
 }
 
-#myCarousel .carousel-indicators > li.active img {
-  //   outline: 2px solid #3563e9;
-  box-shadow: inset 0px 0px 0px 9px #3563e9;
+.img-slider {
+  width: 148px;
+  height: 124px;
+
+  object-fit: contain;
+}
+
+.carousel-indicators > li.active img {
   border-radius: 10px;
+  // border: 10px solid black;
+  box-shadow: 0px 0px 0px 11px #3563e9;
+  outline: 9px solid #ffffff;
+  transform: scale(0.87);
+}
+
+.img-fluid {
+  max-width: 492px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.carousel-indicators li {
+  opacity: 1;
 }
