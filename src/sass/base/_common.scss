@@ -35,6 +35,13 @@ body {
     transition: transform 250ms linear;
   }
 }
+.img-fluid {
+  max-width: 492px;
+  width: 492px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
 .img-slider {
   width: 148px;
@@ -43,18 +50,20 @@ body {
   object-fit: contain;
 }
 
+.carousel-indicators {
+  justify-content: space-between;
+}
+
+.carousel-indicators li {
+  margin: 0;
+}
+
 .carousel-indicators > li.active img {
   border-radius: 10px;
   // border: 10px solid black;
   box-shadow: 0px 0px 0px 11px #3563e9;
   outline: 9px solid #ffffff;
   transform: scale(0.87);
-}
-
-.img-fluid {
-  max-width: 492px;
-  object-fit: contain;
-  border-radius: 10px;
 }
 
 .carousel-indicators li {
