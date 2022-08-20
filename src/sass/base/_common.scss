@@ -52,10 +52,12 @@ body {
 
 .carousel-indicators {
   justify-content: space-between;
+  margin-top: 24px;
 }
 
 .carousel-indicators li {
   margin: 0;
+  border: none;
 }
 
 .carousel-indicators > li.active img {
