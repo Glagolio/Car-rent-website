@@ -38,3 +38,102 @@
   color: #ffffff;
   background-color: #3563e9;
 }
+
+.reviews__avatar {
+  padding-right: 16px;
+}
+
+.reviews__name {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+
+  color: #1a202c;
+}
+
+.reviews__profession {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+
+  color: #90a3bf;
+}
+
+.reviews__member .fa-star {
+  color: #c3d4e9;
+  font-weight: 400;
+
+  cursor: pointer;
+}
+
+.reviews__member .fa-star.accent {
+  color: #fbad39;
+  font-weight: 700;
+}
+
+.reviews__member {
+  margin-bottom: 24px;
+
+  &:last-child {
+    margin-bottom: 34px;
+  }
+}
+
+.reviews__member p {
+  margin-bottom: 10px;
+}
+
+.reviews__member-info {
+  margin-bottom: 8px;
+}
+
+.reviews__text {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+
+  letter-spacing: -0.02em;
+
+  color: #3d5278;
+}
+
+.show-all__button {
+  padding: 10px 20px 10px 20px;
+  background-color: #3563e9;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #90a3bf;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus {
+    color: #212529;
+  }
+
+  &:hover .show-all__button--arrow,
+  &:focus .show-all__button--arrow {
+    color: #212529;
+  }
+}
+
+.show-all__button--arrow {
+  margin-left: 10px;
+  width: 12px;
+  height: 6px;
+  color: #90a3bf;
+
+  transition: color 250ms linear;
+}
