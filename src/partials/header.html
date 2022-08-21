@@ -1,21 +1,35 @@
-<header class="row test wrapper">
-  <div class="col-2">Morent</div>
-  <div class="col">
-    <form>
-      <label
-        ><input type="text" />
-        <button type="button"><i class="fa-solid fa-gear"></i></button
-      ></label>
-    </form>
+<header class="row header wrapper">
+  <div class="col d-flex align-items-stretch">
+    <div class="logo">Morent</div>
+    <div class="">
+      <form class="header__form">
+        <label>
+          <i class="fa-brands fa-sistrix header__search-icon"></i>
+          <input type="text" placeholder="Search something here" />
+          <button
+            type="button"
+            class="btn input-button"
+            aria-label="Search options"
+          >
+            <i class="fa-solid fa-sliders"></i></button
+        ></label>
+      </form>
+    </div>
   </div>
-  <div class="col row">
-    <div class="col">
-      <button type="button"><i class="fa-solid fa-heart"></i></button>
-      <button type="button"><i class="fa-solid fa-heart"></i></button>
-      <button type="button"><i class="fa-solid fa-heart"></i></button>
+  <div class="d-flex justify-content-end">
+    <div class="header-icons">
+      <button type="button" class="header__btn" aria-label="Like">
+        <i class="fa-solid fa-heart"></i>
+      </button>
+      <button type="button" class="header__btn" aria-label="Notification">
+        <i class="fa-solid fa-bell"></i>
+        <div class="header__btn--alert"></div>
+      </button>
+      <button type="button" class="header__btn" aria-label="Settings">
+        <i class="fa-solid fa-gear"></i>
+      </button>
     </div>
-    <div class="col">
-      <img src="./images/header-avatar.png" width="44" height="44" />
-    </div>
+
+    <img src="./images/header-avatar.png" width="44" height="44" alt="avatar" />
   </div>
 </header>

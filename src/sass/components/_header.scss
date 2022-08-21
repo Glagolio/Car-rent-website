@@ -1,0 +1,90 @@
+.header {
+  padding: 40px 32px 40px 60px;
+  border-bottom: solid rgba(195, 212, 233, 0.4);
+
+  & input {
+    width: 492px;
+    height: 44px;
+    padding-left: 64px;
+    padding-right: 64px;
+
+    background-color: #fff;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    border-radius: 70px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__form {
+    position: relative;
+    border: none;
+  }
+}
+
+.logo {
+  margin-right: 64px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #3563e9;
+}
+
+.header__search-icon {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.input-button {
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+
+  color: #3d5278;
+
+  &:hover,
+  &:focus {
+    color: #008cff;
+  }
+}
+
+.header__btn {
+  width: 44px;
+  height: 44px;
+  margin-right: 20px;
+
+  border-radius: 50%;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+
+  color: #3d5278;
+
+  background-color: transparent;
+
+  position: relative;
+
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus {
+    color: #008cff;
+  }
+
+  &--alert {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #ff4423;
+
+    position: absolute;
+    top: 1px;
+    right: 1px;
+  }
+}
