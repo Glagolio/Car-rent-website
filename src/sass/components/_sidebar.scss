@@ -1,6 +1,10 @@
 .sidebar {
   max-width: 360px;
 
+  & li:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
   & p {
     margin-bottom: 28px;
     font-weight: 600;

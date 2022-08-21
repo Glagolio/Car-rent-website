@@ -1,0 +1,82 @@
+.footer {
+  padding: 80px 0 60px 60px;
+
+  & .logo {
+    margin-bottom: 16px;
+  }
+}
+
+.logo a {
+  color: #3563e9;
+
+  transition: color 250ms linear;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: #008cff;
+  }
+}
+
+.logo__text {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+
+  letter-spacing: -0.01em;
+
+  color: rgba(19, 19, 19, 0.6);
+}
+
+.footer_info {
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgba(19, 19, 19, 0.16);
+}
+
+.footer__link {
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+
+  color: rgba(19, 19, 19, 0.6);
+}
+
+.footer__inner {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: #131313;
+}
+
+.footer__link--inner {
+  color: rgba(19, 19, 19, 0.6);
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: #008cff;
+  }
+}
+
+.footer-politics {
+  padding-top: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 2;
+
+  letter-spacing: -0.01em;
+
+  color: #131313;
+
+  & a {
+    color: #131313;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: #008cff;
+    }
+  }
+}
