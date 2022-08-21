@@ -17,6 +17,7 @@
 
 .car-info {
   padding: 24px 24px 32px 24px;
+  margin-bottom: 32px;
   border-radius: 10px;
 
   background-color: #fff;
@@ -162,4 +163,9 @@
   &:focus {
     background-color: #008cff;
   }
+}
+
+.car-info__carousel {
+  padding: 0;
+  margin-right: 32px;
 }
