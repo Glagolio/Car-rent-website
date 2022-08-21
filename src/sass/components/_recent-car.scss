@@ -1,16 +1,31 @@
 .recent-car {
   width: 100%;
   padding-top: 42px;
+  &:last-child {
+    margin-bottom: 32px;
+  }
 
   & .row {
-    margin-bottom: 26px;
     margin-left: 0;
+    margin-right: 0;
+  }
+
+  &__img {
+    margin-bottom: 52px;
+  }
+
+  &__inner {
+    margin-bottom: 26px;
   }
 }
 
 .recent-car__view {
   text-align: end;
-
+  transition: color 250ms linear;
+  &:hover a,
+  &:focus a {
+    color: #008cff;
+  }
   & a {
     font-weight: 600;
     font-size: 16px;
@@ -23,20 +38,32 @@
 }
 
 .recent-car__card {
+  max-width: 317px;
+
   padding: 24px;
   background-color: #fff;
   border-radius: 10px;
 
   position: relative;
+
+  &--inner {
+    margin-bottom: 52px;
+  }
 }
 
-.recent-car__title h2 {
-  margin-bottom: 0;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.25;
+.recent-car__title {
+  &.accent h2 {
+    color: #3563e9;
+  }
 
-  color: #90a3bf;
+  & h2 {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: #90a3bf;
+  }
 }
 
 .recent-car__icon {
@@ -78,8 +105,8 @@
 .recent-car__img {
   position: relative;
   &--inner {
-    width: 272px;
-    height: 84px;
+    // width: 272px;
+    // height: 84px;
 
     display: block;
     margin-left: auto;
@@ -96,4 +123,69 @@
   left: 21px;
 
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+}
+
+.recent-car__specification {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  margin-bottom: 36px;
+
+  color: #90a3bf;
+
+  & .col {
+    padding: 0;
+  }
+}
+
+.fa-gas-pump,
+.fa-user-group,
+.fa-car {
+  width: 22px;
+  height: 21px;
+  margin-right: 5px;
+}
+
+.recent-car__price--actual {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  display: flex;
+  align-items: flex-end;
+
+  color: #1a202c;
+
+  & span {
+    font-size: 14px;
+    line-height: 1.26;
+    color: #90a3bf;
+  }
+}
+
+.recent-car__price--sale {
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28;
+  text-decoration-line: line-through;
+  color: #90a3bf;
+}
+
+.btn-rent {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  text-align: center;
+  outline: none;
+
+  color: #ffffff;
+  background-color: #3563e9;
+
+  &:hover,
+  &:focus {
+    background-color: #008cff;
+  }
 }
