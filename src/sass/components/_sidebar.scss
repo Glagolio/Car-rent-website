@@ -1,0 +1,54 @@
+.sidebar {
+  max-width: 360px;
+
+  & p {
+    margin-bottom: 28px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.5;
+
+    letter-spacing: 0.02em;
+    color: #94a7cb;
+  }
+
+  & .text {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    color: #3d5278;
+  }
+
+  & .accent {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    color: #90a3bf;
+  }
+
+  & input {
+    width: 20px;
+    height: 20px;
+  }
+
+  &__inner:not(:last-child) {
+    margin-bottom: 56px;
+  }
+
+  & .price__range {
+    width: 220px;
+
+    margin-bottom: 16px;
+  }
+
+  & .price__number {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+
+    color: #3d5278;
+  }
+}
