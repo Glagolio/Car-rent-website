@@ -1,0 +1,99 @@
+.recent-car {
+  width: 100%;
+  padding-top: 42px;
+
+  & .row {
+    margin-bottom: 26px;
+    margin-left: 0;
+  }
+}
+
+.recent-car__view {
+  text-align: end;
+
+  & a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+
+    text-decoration: none;
+
+    color: #3563e9;
+  }
+}
+
+.recent-car__card {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 10px;
+
+  position: relative;
+}
+
+.recent-car__title h2 {
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: #90a3bf;
+}
+
+.recent-car__icon {
+  color: #90a3bf;
+  font-weight: 400;
+  width: 20px;
+
+  position: absolute;
+  top: 27px;
+  right: 26px;
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus padding {
+    color: #ed3f3f;
+    font-weight: 900;
+  }
+}
+
+.recent-car__card--title h3 {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+
+  color: #1a202c;
+}
+
+.recent-car__card--title p {
+  margin-bottom: 0;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.28;
+
+  color: #90a3bf;
+}
+
+.recent-car__img {
+  position: relative;
+  &--inner {
+    width: 272px;
+    height: 84px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 52px;
+  }
+}
+.recent-car__img--shadow {
+  width: 264px;
+  height: 66px;
+
+  position: absolute;
+  top: 42px;
+  left: 21px;
+
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+}
