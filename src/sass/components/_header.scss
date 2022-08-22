@@ -2,6 +2,11 @@
   padding: 40px 32px 40px 60px;
   border-bottom: solid rgba(195, 212, 233, 0.4);
 
+  @media screen and (max-width: 767px) {
+    padding: 32px 24px 32px 24px;
+    position: relative;
+  }
+
   &__inner {
     @media screen and (max-width: 1439px) {
       flex-direction: column;
@@ -24,10 +29,20 @@
     border: 1px solid rgba(195, 212, 233, 0.4);
     border-radius: 70px;
 
-    @media screen and (max-width: 1439px) {
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
       height: 48px;
       width: 350px;
       border-radius: 10px;
+      margin-right: 16px;
+    }
+
+    @media screen and (max-width: 767px) {
+      width: 263px;
+      height: 48px;
+      border-radius: 10px;
+      margin-right: 16px;
+      padding-left: 40px;
+      padding-right: 5px;
     }
 
     &:focus {
@@ -60,10 +75,18 @@
       display: none;
     }
   }
+
+  &-profile {
+    @media screen and (max-width: 767px) {
+      position: absolute;
+
+      top: 32px;
+      right: 23px;
+    }
+  }
 }
 
 .logo {
-  margin-right: 64px;
   font-weight: 700;
   font-size: 32px;
   line-height: 1.2;
@@ -71,6 +94,14 @@
   text-transform: uppercase;
 
   color: #3563e9;
+
+  @media screen and (min-width: 1440px) {
+    margin-right: 64px;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 24px;
+  }
 }
 
 .burger-btn {
@@ -98,10 +129,17 @@
   position: absolute;
   left: 20px;
   top: 15px;
+
+  @media screen and (max-width: 1439px) {
+    top: 17px;
+  }
+  @media screen and (max-width: 767px) {
+    top: 17px;
+    left: 15px;
+  }
 }
 
 .input-button {
-  padding: 12px;
   border: 1px solid rgba(195, 212, 233, 0.4);
   border-radius: 10px;
   @media screen and (min-width: 1440px) {
@@ -109,6 +147,7 @@
     top: 10px;
     right: 15px;
     padding: 0;
+    border: none;
   }
 
   color: #3d5278;
@@ -149,5 +188,15 @@
     position: absolute;
     top: 1px;
     right: 1px;
+  }
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+
+  @media screen and (max-width: 767px) {
+    width: 28px;
+    height: 28px;
   }
 }
