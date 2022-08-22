@@ -1,2 +1,0 @@
-!function(){var e=document.querySelectorAll(".js-show-all-button"),n=document.querySelectorAll(".js-rivews__member"),t=function(){n.forEach((function(e){e.classList.toggle("hidden")})),e.forEach((function(e){e.classList.toggle("hidden")}))};e.forEach((function(e){e.addEventListener("click",t)}));var c=document.querySelector(".js-input-price"),o=document.querySelector(".js-price");c.value=100,c.addEventListener("input",(function(){o.innerText=c.value}))}();
-//# sourceMappingURL=index.3745a123.js.map
