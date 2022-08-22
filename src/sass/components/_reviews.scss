@@ -58,6 +58,22 @@
   line-height: 1.25;
 
   color: #1a202c;
+
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+}
+
+.reviews__date p {
+  margin-bottom: 6px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #90a3bf;
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
 }
 
 .reviews__profession {
@@ -66,6 +82,10 @@
   line-height: 1.28;
 
   color: #90a3bf;
+
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
 }
 
 .reviews__member .fa-star {
@@ -105,6 +125,20 @@
   letter-spacing: -0.02em;
 
   color: #3d5278;
+
+  // & .points {
+  //   @media screen and (min-width: 768px) {
+  //     display: none;
+  //   }
+  // }
+  // & .more-text {
+  //   @media screen and (max-width: 767px) {
+  //     display: none;
+  //   }
+  // }
+  // @media screen and (max-width: 767px) {
+  //   font-size: 12px;
+  // }
 }
 
 .show-all__button {
