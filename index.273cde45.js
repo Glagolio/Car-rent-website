@@ -1,0 +1,2 @@
+const e=document.querySelectorAll(".js-show-all-button"),t=document.querySelectorAll(".js-rivews__member"),c=()=>{t.forEach((e=>{e.classList.toggle("hidden")})),e.forEach((e=>{e.classList.toggle("hidden")}))};e.forEach((e=>{e.addEventListener("click",c)}));const r=document.querySelector(".js-input-price"),l=document.querySelector(".js-price");r.value=100,r.addEventListener("input",(()=>{l.innerText=r.value}));
+//# sourceMappingURL=index.273cde45.js.map
