@@ -9,9 +9,14 @@ const isOpen = () => {
   loadMoreBtn.forEach(btn => {
     btn.classList.toggle('hidden');
   });
+
+  const isHiddenMoreText = moreText.forEach(el =>
+    console.log(el.classList.contains('hidden'))
+  );
+  console.dir(isHiddenMoreText);
   if (
-    moreText.find(el => el.classList.contains('hidden') == true) ||
-    (points.find(el => el.classList.contains('hidden') == true) &&
+    Array.from(moreText).find(el => el.classList.contains('hidden') == true) ||
+    (Array.from(points).find(el => el.classList.contains('hidden') == true) &&
       window.innerWidth < 768)
   ) {
     moreText.forEach(el => el.classList.toggle('hidden'));

@@ -2,6 +2,10 @@ const starIcons = document.querySelectorAll('.fa-star');
 export const points = document.querySelectorAll('.js-points');
 export const moreText = document.querySelectorAll('.js-more-text');
 
+if (window.innerWidth < 768) {
+  points.forEach(el => el.classList.remove('hidden'));
+  moreText.forEach(el => el.classList.add('hidden'));
+}
 window.addEventListener('resize', () => {
   if (window.innerWidth < 768) {
     starIcons.forEach(item => {
