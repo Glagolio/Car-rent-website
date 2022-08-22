@@ -20,6 +20,16 @@
     height: 124px;
     border-radius: 10px;
     transition: transform 250ms linear;
+
+    @media screen and (max-width: 1439px) {
+      width: 222px;
+      height: 186px;
+    }
+
+    @media screen and (max-width: 767px) {
+      width: 96px;
+      height: 78px;
+    }
   }
 }
 .img-fluid {
@@ -30,8 +40,15 @@
   border-radius: 10px;
 
   @media screen and (max-width: 1439px) {
-    width: 500px;
-    max-width: 500px;
+    width: 679px;
+    max-width: 679px;
+    height: 497px;
+  }
+
+  @media screen and (max-width: 767px) {
+    max-width: 317px;
+    width: 317px;
+    height: 232px;
   }
 }
 

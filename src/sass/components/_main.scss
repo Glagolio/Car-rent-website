@@ -11,6 +11,9 @@
   @media screen and (max-width: 1439px) {
     padding: 20px;
   }
+  @media screen and (max-width: 767px) {
+    padding: 32px 24px;
+  }
 }
 
 .car-info__inner--main {
@@ -36,12 +39,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 16px;
+  }
 }
 
 .car-info__title {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.4;
+
+  @media screen and (max-width: 767px) {
+    font-size: 20px;
+  }
 }
 
 .car-info__icon {
@@ -58,6 +69,10 @@
   &:focus padding {
     color: #ed3f3f;
     font-weight: 900;
+  }
+
+  @media screen and(max-width: 767px) {
+    display: none;
   }
 }
 
@@ -79,6 +94,10 @@
   font-size: 14px;
   line-height: 1.29;
   color: #3d5278;
+
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
 }
 
 .car-info__text {
@@ -88,6 +107,11 @@
   line-height: 2;
   letter-spacing: -0.02em;
   color: #3d5278;
+
+  @media screen and(max-width: 767px) {
+    margin-bottom: 16px;
+    font-size: 12px;
+  }
 }
 
 .car-info__information {
@@ -117,6 +141,10 @@
 
   color: #90a3bf;
 
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
+
   & .accent {
     font-weight: 600;
     color: #3d5278;
@@ -138,10 +166,16 @@
 
   color: #1a202c;
 
+  @media screen and (max-width: 767px) {
+    font-size: 20px;
+  }
   & span {
     font-size: 18px;
     line-height: 1.18;
     color: #90a3bf;
+    @media screen and (max-width: 767px) {
+      font-size: 12px;
+    }
   }
 }
 
@@ -154,7 +188,7 @@
   color: #90a3bf;
 }
 
-.btn-rent {
+.btn-rent--card {
   padding: 16px 32px;
   font-weight: 700;
   font-size: 16px;
