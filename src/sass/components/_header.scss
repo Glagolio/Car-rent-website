@@ -2,6 +2,18 @@
   padding: 40px 32px 40px 60px;
   border-bottom: solid rgba(195, 212, 233, 0.4);
 
+  &__inner {
+    @media screen and (max-width: 1439px) {
+      flex-direction: column;
+    }
+  }
+
+  &-leftside {
+    @media screen and (max-width: 1439px) {
+      margin-bottom: 24px;
+    }
+  }
+
   & input {
     width: 492px;
     height: 44px;
@@ -11,6 +23,12 @@
     background-color: #fff;
     border: 1px solid rgba(195, 212, 233, 0.4);
     border-radius: 70px;
+
+    @media screen and (max-width: 1439px) {
+      height: 48px;
+      width: 350px;
+      border-radius: 10px;
+    }
 
     &:focus {
       outline: none;
@@ -29,6 +47,18 @@
   &__form {
     position: relative;
     border: none;
+    display: flex;
+    & label {
+      @media screen and (max-width: 1439px) {
+        display: flex;
+      }
+    }
+  }
+
+  &-icons {
+    @media screen and (max-width: 1439px) {
+      display: none;
+    }
   }
 }
 
@@ -43,6 +73,25 @@
   color: #3563e9;
 }
 
+.burger-btn {
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
+  margin-bottom: 32px;
+  padding-left: 0;
+
+  & i {
+    color: #3d5278;
+
+    transition: color 250ms linear;
+
+    &:hover,
+    &:focus {
+      color: #008cff;
+    }
+  }
+}
+
 .header__search-icon {
   width: 28px;
   height: 28px;
@@ -52,10 +101,15 @@
 }
 
 .input-button {
-  padding: 0;
-  position: absolute;
-  top: 10px;
-  right: 15px;
+  padding: 12px;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 10px;
+  @media screen and (min-width: 1440px) {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 0;
+  }
 
   color: #3d5278;
 
@@ -97,5 +151,3 @@
     right: 1px;
   }
 }
-
-
