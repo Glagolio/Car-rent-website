@@ -1,6 +1,6 @@
 <main>
   <div class="row">
-    <div class="col-xxl-4 col-lg-3 car-info__inner sidebar">
+    <div class="col-xl-3 col-sm-2 car-info__inner sidebar">
       <div class="sidebar__inner">
         <p>T y p e</p>
         <div class="form-check">
@@ -88,8 +88,8 @@
       </div>
       <div class="sidebar__inner">
         <p>P r i c e</p>
-        <input class="price__range" type="range" min="25" max="125" />
-        <p class="price__number">Max. $100.00</p>
+        <input class="price__range js-input-price" type="range" min="25" max="125" />
+        <p class="price__number">Max. $<span class="js-price">100</span>.00</p>
       </div>
     </div>
     <section class="col row car-info__inner car-info__inner--main">
@@ -266,13 +266,75 @@
               </p>
             </div>
           </div>
+          <div class="row reviews__member js-rivews__member hidden">
+            <div class="col-1 reviews__avatar">
+              <img src="./images/Profill-1.png" alt="Alex Stanton" />
+            </div>
+            <div class="col reviews__member--inner">
+              <div class="d-flex justify-content-between reviews__member-info">
+                <div>
+                  <p class="reviews__name">Alex Stanton</p>
+                  <p class="reviews__profession">CEO at Bukalapak</p>
+                </div>
+                <div>
+                  <p>21 July 2022</p>
+                  <i class="fa-solid fa-star accent"></i>
+                  <i class="fa-solid fa-star accent"></i>
+                  <i class="fa-solid fa-star accent"></i>
+                  <i class="fa-solid fa-star accent"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <p class="reviews__text">
+                We are very happy with the service from the MORENT App. Morent
+                has a low price and also a large variety of cars with good and
+                comfortable facilities. In addition, the service provided by the
+                officers is also very friendly and very polite.
+              </p>
+            </div>
+          </div>
+          <div class="row reviews__member js-rivews__member hidden">
+            <div class="col-1 reviews__avatar">
+              <img src="./images/profill-2.png" alt="Alex Stanton" />
+            </div>
+            <div class="col reviews__member--inner">
+              <div class="d-flex justify-content-between reviews__member-info">
+                <div>
+                  <p class="reviews__name">Skylar Dias</p>
+                  <p class="reviews__profession">CEO at Amazon</p>
+                </div>
+                <div>
+                  <p>20 July 2022</p>
+                  <i class="fa-solid fa-star accent"></i>
+                  <i class="fa-solid fa-star accent"></i>
+                  <i class="fa-solid fa-star accent"></i>
+                  <i class="fa-solid fa-star accent"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <p class="reviews__text">
+                We are greatly helped by the services of the MORENT Application.
+                Morent has low prices and also a wide variety of cars with good
+                and comfortable facilities. In addition, the service provided by
+                the officers is also very friendly and very polite.
+              </p>
+            </div>
+          </div>
           <button
             type="button"
-            class="btn show-all__button"
-            aria-label="Show all button"
+            class="btn show-all__button js-show-all-button"
+            aria-label="Show all"
           >
-            Show All
+            <span>Show All</span>
             <i class="fa-solid fa-chevron-down show-all__button--arrow"></i>
+          </button>
+             <button
+            type="button"
+            class="btn show-all__button js-show-all-button hidden"
+            aria-label="Hide"
+          >
+            <span>Hide</span>
+            <i class="fa-solid fa-chevron-up show-all__button--arrow"></i>
           </button>
         </div>
       </div>
