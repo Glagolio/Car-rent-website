@@ -5,12 +5,12 @@ const userGroupIcon = document.querySelector('.fa-user-group');
 export const points = document.querySelectorAll('.js-points');
 export const moreText = document.querySelectorAll('.js-more-text');
 
-if (window.innerWidth < 719) {
+if (window.innerWidth < 720) {
   points.forEach(el => el.classList.remove('hidden'));
   moreText.forEach(el => el.classList.add('hidden'));
 }
 window.addEventListener('resize', () => {
-  if (window.innerWidth < 719) {
+  if (window.innerWidth < 720) {
     gasPumpIcon.classList.add('fa-xs');
     carIcon.classList.add('fa-xs');
     userGroupIcon.classList.add('fa-xs');

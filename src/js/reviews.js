@@ -13,7 +13,7 @@ const isOpen = () => {
   if (
     Array.from(moreText).find(el => el.classList.contains('hidden') == true) ||
     (Array.from(points).find(el => el.classList.contains('hidden') == true) &&
-      window.innerWidth < 719)
+      window.innerWidth < 720)
   ) {
     moreText.forEach(el => el.classList.toggle('hidden'));
     points.forEach(el => el.classList.toggle('hidden'));
