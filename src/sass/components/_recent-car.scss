@@ -1,8 +1,12 @@
 .recent-car {
   width: 100%;
   padding-top: 42px;
+
   &:last-child {
     margin-bottom: 32px;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 0;
+    }
   }
 
   & .row {
@@ -57,6 +61,13 @@
   @media screen and (max-width: 767px) {
     padding: 16px;
     max-width: 240px;
+    width: 240px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1440px) {
+    &:not(:last-child) {
+      margin-bottom: 42px;
+    }
   }
 
   &--inner {
@@ -141,6 +152,13 @@
     }
   }
 }
+.recent-car__img--suv {
+  @media screen and (max-width: 767px) {
+    width: 160px;
+    height: 64px;
+  }
+}
+
 .recent-car__img--shadow {
   width: 264px;
   height: 66px;
@@ -155,7 +173,7 @@
     height: 56px;
 
     top: 24px;
-    left: 44.5px;
+    left: 15px;
   }
 }
 
@@ -166,7 +184,7 @@
   margin-bottom: 36px;
 
   @media screen and (max-width: 767px) {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   color: #90a3bf;
@@ -240,4 +258,35 @@
   &:focus {
     background-color: #008cff;
   }
+}
+
+.swiper {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.no-swiper {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.swiper {
+  width: 100%;
+  position: relative;
+}
+
+.swiper-wrapper {
+  display: inline-flex;
+}
+
+.swiper-shadow {
+  position: absolute;
+  width: 92px;
+  height: 310px;
+  top: 0px;
+  right: -25px;
+
+  background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
 }
