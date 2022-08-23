@@ -11,7 +11,7 @@
   @media screen and (max-width: 1439px) {
     padding: 20px;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     padding: 32px 24px 0px 24px;
   }
 }
@@ -40,7 +40,7 @@
   justify-content: space-between;
   align-items: center;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     margin-bottom: 16px;
   }
 }
@@ -50,7 +50,7 @@
   font-size: 32px;
   line-height: 1.4;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     font-size: 20px;
   }
 }
@@ -71,7 +71,7 @@
     font-weight: 900;
   }
 
-  @media screen and(max-width: 767px) {
+  @media screen and(max-width: 719px) {
     display: none;
   }
 }
@@ -95,7 +95,7 @@
   line-height: 1.29;
   color: #3d5278;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     font-size: 12px;
   }
 }
@@ -108,7 +108,7 @@
   letter-spacing: -0.02em;
   color: #3d5278;
 
-  @media screen and(max-width: 767px) {
+  @media screen and(max-width: 719px) {
     margin-bottom: 16px;
     font-size: 12px;
   }
@@ -141,7 +141,7 @@
 
   color: #90a3bf;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     font-size: 12px;
   }
 
@@ -166,14 +166,14 @@
 
   color: #1a202c;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     font-size: 20px;
   }
   & span {
     font-size: 18px;
     line-height: 1.18;
     color: #90a3bf;
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 719px) {
       font-size: 12px;
     }
   }

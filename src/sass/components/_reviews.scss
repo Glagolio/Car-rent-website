@@ -8,7 +8,7 @@
   border-radius: 10px;
   background-color: #ffffff;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     padding: 16px 16px 26px 16px;
   }
 }
@@ -18,7 +18,7 @@
   display: flex;
   align-items: baseline;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     margin-bottom: 24px;
   }
 }
@@ -67,7 +67,7 @@
 
   color: #1a202c;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     font-size: 16px;
   }
 }
@@ -79,7 +79,7 @@
   font-size: 14px;
   line-height: 18px;
   color: #90a3bf;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     font-size: 12px;
   }
 }
@@ -91,7 +91,7 @@
 
   color: #90a3bf;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     font-size: 12px;
   }
 }
@@ -115,7 +115,7 @@
     margin-bottom: 34px;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     margin-bottom: 20px;
   }
 }
@@ -127,7 +127,7 @@
 .reviews__member-info {
   margin-bottom: 8px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     margin-bottom: 16px;
   }
 }
@@ -141,20 +141,6 @@
   letter-spacing: -0.02em;
 
   color: #3d5278;
-
-  // & .points {
-  //   @media screen and (min-width: 768px) {
-  //     display: none;
-  //   }
-  // }
-  // & .more-text {
-  //   @media screen and (max-width: 767px) {
-  //     display: none;
-  //   }
-  // }
-  // @media screen and (max-width: 767px) {
-  //   font-size: 12px;
-  // }
 }
 
 .show-all__button {

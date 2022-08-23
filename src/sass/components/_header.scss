@@ -2,7 +2,7 @@
   padding: 40px 32px 40px 60px;
   border-bottom: solid rgba(195, 212, 233, 0.4);
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     padding: 32px 24px 32px 24px;
     position: relative;
   }
@@ -29,14 +29,14 @@
     border: 1px solid rgba(195, 212, 233, 0.4);
     border-radius: 70px;
 
-    @media screen and (min-width: 768px) and (max-width: 1439px) {
+    @media screen and (min-width: 720px) and (max-width: 1439px) {
       height: 48px;
       width: 350px;
       border-radius: 10px;
       margin-right: 16px;
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 719px) {
       width: 263px;
       height: 48px;
       border-radius: 10px;
@@ -77,7 +77,7 @@
   }
 
   &-profile {
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 719px) {
       position: absolute;
 
       top: 32px;
@@ -99,7 +99,7 @@
     margin-right: 64px;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     font-size: 24px;
   }
 }
@@ -133,7 +133,7 @@
   @media screen and (max-width: 1439px) {
     top: 17px;
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     top: 17px;
     left: 15px;
   }
@@ -196,7 +196,7 @@
   width: 44px;
   height: 44px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     width: 28px;
     height: 28px;
   }

@@ -4,7 +4,7 @@
 
   &:last-child {
     margin-bottom: 32px;
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 719px) {
       margin-bottom: 0;
     }
   }
@@ -21,7 +21,7 @@
   &__inner {
     margin-bottom: 26px;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 719px) {
       margin-bottom: 20px;
     }
   }
@@ -43,7 +43,7 @@
 
     color: #3563e9;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 719px) {
       font-size: 12px;
     }
   }
@@ -58,13 +58,13 @@
 
   position: relative;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     padding: 16px;
     max-width: 240px;
     width: 240px;
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1440px) {
+  @media screen and (min-width: 720px) and (max-width: 1440px) {
     &:not(:last-child) {
       margin-bottom: 42px;
     }
@@ -73,7 +73,7 @@
   &--inner {
     margin-bottom: 52px;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 719px) {
       margin-bottom: 32px;
     }
   }
@@ -92,7 +92,7 @@
 
     color: #90a3bf;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 719px) {
       font-size: 14px;
     }
   }
@@ -138,7 +138,7 @@
   position: relative;
   margin-bottom: 52px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     margin-bottom: 44px;
   }
   &--inner {
@@ -146,14 +146,14 @@
     margin-left: auto;
     margin-right: auto;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 719px) {
       width: 180px;
       height: 56px;
     }
   }
 }
 .recent-car__img--suv {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     width: 160px;
     height: 64px;
   }
@@ -168,7 +168,7 @@
 
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     width: 180px;
     height: 56px;
 
@@ -183,7 +183,7 @@
   line-height: 1.28;
   margin-bottom: 36px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     font-size: 11px;
   }
 
@@ -199,7 +199,7 @@
 .fa-car {
   margin-right: 10px;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     margin-right: 6px;
   }
 }
@@ -214,7 +214,7 @@
 
   color: #1a202c;
 
-  @media screen and(max-width: 767px) {
+  @media screen and(max-width: 719px) {
     font-size: 16px;
   }
 
@@ -223,7 +223,7 @@
     line-height: 1.26;
     color: #90a3bf;
 
-    @media screen and(max-width: 767px) {
+    @media screen and(max-width: 719px) {
       font-size: 12px;
     }
   }
@@ -249,7 +249,7 @@
 
   color: #ffffff;
   background-color: #3563e9;
-  @media screen and(max-width: 767px) {
+  @media screen and(max-width: 719px) {
     padding: 10px 16px;
     font-size: 12px;
   }
@@ -261,13 +261,13 @@
 }
 
 .swiper {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 720px) {
     display: none;
   }
 }
 
 .no-swiper {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 719px) {
     display: none;
   }
 }
