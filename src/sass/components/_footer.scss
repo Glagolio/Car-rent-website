@@ -55,6 +55,7 @@
 
   @media screen and (max-width: 767px) {
     padding-bottom: 0;
+    border: none;
   }
 }
 
@@ -95,8 +96,13 @@
 
   color: #131313;
 
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    font-size: 14px;
+  }
+
   @media screen and (max-width: 767px) {
     font-size: 12px;
+    padding-top: 0;
   }
 
   & a {
@@ -108,9 +114,23 @@
       color: #008cff;
     }
   }
+
+  & .col-xl-4 {
+    @media screen and (max-width: 1439px) {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
 }
+
 .footer__logo--inner {
   @media screen and (max-width: 767px) {
     margin-bottom: 48px;
+  }
+}
+
+.foooter__privacy {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 32px;
   }
 }
