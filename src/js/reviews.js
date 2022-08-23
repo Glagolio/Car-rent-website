@@ -10,10 +10,6 @@ const isOpen = () => {
     btn.classList.toggle('hidden');
   });
 
-  const isHiddenMoreText = moreText.forEach(el =>
-    console.log(el.classList.contains('hidden'))
-  );
-  console.dir(isHiddenMoreText);
   if (
     Array.from(moreText).find(el => el.classList.contains('hidden') == true) ||
     (Array.from(points).find(el => el.classList.contains('hidden') == true) &&

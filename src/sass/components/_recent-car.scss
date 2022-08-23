@@ -16,6 +16,10 @@
 
   &__inner {
     margin-bottom: 26px;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -34,6 +38,10 @@
     text-decoration: none;
 
     color: #3563e9;
+
+    @media screen and (max-width: 767px) {
+      font-size: 12px;
+    }
   }
 }
 
@@ -46,8 +54,17 @@
 
   position: relative;
 
+  @media screen and (max-width: 767px) {
+    padding: 16px;
+    max-width: 240px;
+  }
+
   &--inner {
     margin-bottom: 52px;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 32px;
+    }
   }
 }
 
@@ -63,6 +80,10 @@
     line-height: 1.25;
 
     color: #90a3bf;
+
+    @media screen and (max-width: 767px) {
+      font-size: 14px;
+    }
   }
 }
 
@@ -104,14 +125,20 @@
 
 .recent-car__img {
   position: relative;
-  &--inner {
-    // width: 272px;
-    // height: 84px;
+  margin-bottom: 52px;
 
+  @media screen and (max-width: 767px) {
+    margin-bottom: 44px;
+  }
+  &--inner {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 52px;
+
+    @media screen and (max-width: 767px) {
+      width: 180px;
+      height: 56px;
+    }
   }
 }
 .recent-car__img--shadow {
@@ -122,6 +149,14 @@
   top: 42px;
 
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+
+  @media screen and (max-width: 767px) {
+    width: 180px;
+    height: 56px;
+
+    top: 24px;
+    left: 44.5px;
+  }
 }
 
 .recent-car__specification {
@@ -129,6 +164,10 @@
   font-size: 14px;
   line-height: 1.28;
   margin-bottom: 36px;
+
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
 
   color: #90a3bf;
 
@@ -140,9 +179,11 @@
 .fa-gas-pump,
 .fa-user-group,
 .fa-car {
-  width: 22px;
-  height: 21px;
-  margin-right: 5px;
+  margin-right: 10px;
+
+  @media screen and (max-width: 767px) {
+    margin-right: 6px;
+  }
 }
 
 .recent-car__price--actual {

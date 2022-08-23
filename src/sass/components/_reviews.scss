@@ -7,12 +7,20 @@
 
   border-radius: 10px;
   background-color: #ffffff;
+
+  @media screen and (max-width: 767px) {
+    padding: 16px 16px 26px 16px;
+  }
 }
 
 .reviews__head {
   margin-bottom: 32px;
   display: flex;
   align-items: baseline;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 24px;
+  }
 }
 
 .reviews__title {
@@ -106,6 +114,10 @@
   &:last-child {
     margin-bottom: 34px;
   }
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
 }
 
 .reviews__member p {
@@ -114,6 +126,10 @@
 
 .reviews__member-info {
   margin-bottom: 8px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 16px;
+  }
 }
 
 .reviews__text {
