@@ -2,7 +2,6 @@ const starIcons = document.querySelectorAll('.fa-star');
 const gasPumpIcon = document.querySelector('.fa-gas-pump');
 const carIcon = document.querySelector('.fa-car');
 const userGroupIcon = document.querySelector('.fa-user-group');
-
 export const points = document.querySelectorAll('.js-points');
 export const moreText = document.querySelectorAll('.js-more-text');
 
