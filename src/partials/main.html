@@ -1,6 +1,6 @@
 <main>
   <div class="row">
-    <div class="col-sm-4 col-xl-3 car-info__inner sidebar js-sidebar">
+    <div class="col-6 col-sm-4 col-xl-3 car-info__inner sidebar js-sidebar">
       <div class="sidebar__inner">
         <p>T y p e</p>
         <div class="form-check">
@@ -92,8 +92,8 @@
         <p class="price__number">Max. $<span class="js-price">100</span>.00</p>
       </div>
     </div>
-    <section class="col row car-info__inner car-info__inner--main">
-      <div class="col car-info__carousel">
+    <div class="col row car-info__inner car-info__inner--main">
+      <section class="col car-info__carousel">
         <h1 class="main__title">
           Sports car with the best disgn and acceleration
         </h1>
@@ -151,9 +151,9 @@
             </ul>
           </div>
         </div>
-      </div>
+      </section>
       <!--/main slider carousel-->
-      <div class="col car-info">
+      <section class="col car-info">
         <div class="car-info__head">
           <div>
             <h2 class="car-info__title">Nissan GT-R</h2>
@@ -205,8 +205,8 @@
             Rent Now
           </button>
         </div>
-      </div>
-      <div class="reviews">
+      </section>
+      <section class="reviews">
         <div class="reviews__inner">
           <div class="reviews__head">
             <h2 class="reviews__title">Reviews</h2>
@@ -249,7 +249,7 @@
                   <p class="reviews__name">Skylar Dias</p>
                   <p class="reviews__profession">CEO at Amazon</p>
                 </div>
-                <div>
+                <div class="reviews__date">
                   <p>20 July 2022</p>
                   <i class="fa-solid fa-star accent"></i>
                   <i class="fa-solid fa-star accent"></i>
@@ -276,7 +276,7 @@
                   <p class="reviews__name">Alex Stanton</p>
                   <p class="reviews__profession">CEO at Bukalapak</p>
                 </div>
-                <div>
+                <div class="reviews__date">
                   <p>21 July 2022</p>
                   <i class="fa-solid fa-star accent"></i>
                   <i class="fa-solid fa-star accent"></i>
@@ -303,7 +303,7 @@
                   <p class="reviews__name">Skylar Dias</p>
                   <p class="reviews__profession">CEO at Amazon</p>
                 </div>
-                <div>
+                <div class="reviews__date">
                   <p>20 July 2022</p>
                   <i class="fa-solid fa-star accent"></i>
                   <i class="fa-solid fa-star accent"></i>
@@ -337,9 +337,9 @@
             <i class="fa-solid fa-chevron-up show-all__button--arrow"></i>
           </button>
         </div>
-      </div>
+      </section>
       <!-- RECENT CAR -->
-      <div class="recent-car">
+      <section class="recent-car">
         <div class="row justify-content-between recent-car__inner">
           <div class="col recent-car__title"><h2>Recent Car</h2></div>
           <div class="col recent-car__view"><a href="#">View All</a></div>
@@ -461,8 +461,7 @@
           </div>
         </div>
       </div>
-
-      <!-- ====SWIPER==== -->
+            <!-- ====SWIPER==== -->
    <div class="swiper mySwiper">
       <div class="swiper-wrapper">
           <div class="recent-car__card swiper-slide">
@@ -584,8 +583,11 @@
       
         <div class="swiper-shadow"></div>
       </div>
+      </section>
+
+
         <!-- RECOMENDATION CAR -->
-          <div class="recent-car">
+          <section class="recent-car">
         <div class="row justify-content-between recent-car__inner">
           <div class="col recent-car__title accent"><h2>Recomendation Car</h2></div>
           <div class="col recent-car__view"><a href="#">View All</a></div>
@@ -837,5 +839,4 @@
     </section>
   </div>
     <div class="backdrop is-hidden"></div>
-
 </main>

@@ -41,6 +41,10 @@
     letter-spacing: -0.02em;
     color: #3d5278;
 
+    @media screen and (max-width: 767px) {
+      font-size: 14px;
+    }
+
     // @media screen and (max-width: 1439px) {
     //   margin-left: 3px;
 
@@ -54,6 +58,10 @@
     line-height: 1.5;
     letter-spacing: -0.02em;
     color: #90a3bf;
+
+    @media screen and (max-width: 767px) {
+      font-size: 14px;
+    }
 
     // @media screen and (max-width: 1439px) {
     //   font-size: 14px;
@@ -87,6 +95,10 @@
     letter-spacing: -0.02em;
 
     color: #3d5278;
+
+    @media screen and (max-width: 767px) {
+      font-size: 14px;
+    }
   }
 }
 .is-sidebar-open {
